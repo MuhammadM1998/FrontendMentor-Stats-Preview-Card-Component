@@ -12,7 +12,6 @@ Frontend Mentor challenges help you improve your coding skills by building reali
 -   [My process](#my-process)
     -   [Built with](#built-with)
 -   [Author](#author)
--   [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -26,9 +25,9 @@ Users should be able to:
 ### Screenshots
 
 
-![Screenshot - Desktop.png](images/Screenshot - Desktop.png)
+![Screenshot - Desktop](images/Screenshot - Desktop.png)
 
-![Screenshot - Mobile.png](images/Screenshot - Mobile.png)
+![Screenshot - Mobile](images/Screenshot - Mobile.png)
 
 ### Links
 
