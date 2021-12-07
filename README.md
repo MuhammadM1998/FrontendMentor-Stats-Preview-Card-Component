@@ -25,9 +25,10 @@ Users should be able to:
 
 ### Screenshots
 
-![Screenshot - Desktop](images/Screenshot - Desktop.png)
 
-![Screenshot - Mobile](images/Screenshot - Mobile.png)
+![Screenshot - Desktop.png](images/Screenshot - Desktop.png)
+
+![Screenshot - Mobile.png](images/Screenshot - Mobile.png)
 
 ### Links
 
