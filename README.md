@@ -25,9 +25,9 @@ Users should be able to:
 
 ### Screenshots
 
-![Screenshot - Desktop](images/Screenshot1.png)
+![Screenshot - Desktop](images/Screenshot - Desktop.png)
 
-![Screenshot - Mobile](images/Screenshot1.png)
+![Screenshot - Mobile](images/Screenshot - Mobile.png)
 
 ### Links
 
