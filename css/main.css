@@ -1,0 +1,156 @@
+/*** Media ***
+- Mobile: 375px
+- Desktop: 1440px
+*/
+
+/*** General Styles ***/
+:root {
+	--very-dark-blue: hsl(233, 47%, 7%); /* Main Background */
+	--dark-desaturated-blue: hsl(244, 38%, 16%); /* Card Background */
+	--soft-violet: hsl(277, 64%, 61%); /* Accent */
+	--white-main-heading: hsl(0, 0%, 100%);
+	--white-main-paragraph: hsla(0, 0%, 100%, 0.75);
+	--white-stat-heading: hsla(0, 0%, 100%, 0.6);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	height: 100vh;
+	display: grid;
+	place-content: center;
+	font-size: 15px;
+}
+
+img {
+	max-width: 100%;
+}
+
+.attribution {
+	color: var(--white-main-heading);
+	font-size: 11px;
+	text-align: center;
+	margin-top: 10px;
+}
+
+.attribution a {
+	color: var(--soft-violet);
+}
+
+/*** Page Styles ***/
+
+/** Fonts **/
+/*
+font-family: 'Inter', sans-serif;
+font-family: 'Lexend Deca', sans-serif;
+*/
+
+body {
+	font-family: 'Inter', sans-serif;
+	background-color: var(--very-dark-blue);
+}
+
+.card {
+	background-color: var(--dark-desaturated-blue);
+	display: flex;
+	width: 700px;
+	margin: auto;
+	border-radius: 4px;
+}
+
+.card .content {
+	padding: 45px 75px 35px 45px;
+	flex-basis: 53%;
+}
+
+.card .content .main-heading {
+	color: var(--white-main-heading);
+	font-size: 1.4rem;
+	margin-bottom: 1.2rem;
+}
+
+.card .content .main-heading span {
+	color: var(--soft-violet);
+}
+
+.card .content .main-paragraph {
+	color: var(--white-main-paragraph);
+	font-size: 0.6rem;
+	margin-bottom: 2rem;
+	line-height: 1.7;
+}
+
+.card .content .stats {
+	display: flex;
+	justify-content: space-between;
+}
+
+.card .content .stat h4 {
+	color: var(--white-main-heading);
+	margin-bottom: 0.3rem;
+}
+
+.card .content .stat p {
+	font-family: 'Lexend Deca', sans-serif;
+	color: var(--white-stat-heading);
+	text-transform: uppercase;
+	font-size: 0.5rem;
+	letter-spacing: 1px;
+}
+.card .image {
+	position: relative;
+	background-image: url(../images/image-header-desktop.jpg);
+	background-size: cover;
+	flex: 1;
+}
+
+.card .image::before {
+	position: absolute;
+	content: '';
+	top: 0%;
+	left: 0%;
+	background-color: #6600a6;
+	opacity: 0.5;
+	width: 100%;
+	max-height: 100%;
+	height: 100%;
+	z-index: 2;
+}
+
+.card .image img {
+	border-radius: 0 4px 4px 0;
+	height: 100%;
+	position: relative;
+}
+
+@media (max-width: 997px) {
+	.card {
+		flex-direction: column;
+		width: 40%;
+		text-align: center;
+	}
+
+	.card .content {
+		padding: 30px 20px 30px 20px;
+	}
+
+	.card .image {
+		background-image: url(../images/image-header-mobile.jpg);
+		order: -1;
+		height: 200px;
+		flex: 1 1 auto;
+	}
+
+	.card .image img {
+		border-radius: 4px 4px 0 0;
+	}
+
+	.card .content .stats {
+		flex-direction: column;
+		gap: 1.2rem;
+	}
+}
