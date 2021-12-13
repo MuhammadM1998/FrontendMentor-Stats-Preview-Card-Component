@@ -34,8 +34,8 @@ Mobile
 
 ### Links
 
--   [Solution URL](https://github.com/MuhammadM1998/Stats-Preview-Card-Component)
--   [Live Site URL](https://muhammadm1998.github.io/Stats-Preview-Card-Component/)
+-   [Solution URL](https://github.com/MuhammadM1998/FrontendMentor-Stats-Preview-Card-Component)
+-   [Live Site URL](https://muhammadm1998.github.io/FrontendMentor-Stats-Preview-Card-Component/)
 
 ## My process
 
